@@ -14,7 +14,7 @@ export const MARQUEE_ITEMS = [
 ];
 
 export const STATS: StatCard[] = [
-  { number: '5', suffix: '+', label: 'Founding team members' },
+  { number: '3', suffix: '+', label: 'Founding team members' },
   { number: 'MSc', suffix: 's', label: 'Masters graduates' },
   { number: 'UK', suffix: ' 🏴󠁧󠁢󠁳󠁣󠁴󠁿', label: 'Based in Scotland' },
   { number: '∞', label: 'Industries to transform' },
