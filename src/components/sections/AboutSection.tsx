@@ -47,7 +47,7 @@ export function AboutSection() {
             rooted in ambition
           </h2>
           <p className="mt-5 text-[17px] font-light text-[#5a5754] dark:text-white/50 max-w-[520px] leading-[1.75]">
-            Founded by five Masters graduates in Scotland, LeoRup was born from a shared belief: that intelligent software should be accessible to every business, not just the giants. We are builders, researchers, and problem-solvers — and we're only just getting started.
+            Founded by three Masters graduates in Scotland, LeoRup was born from a shared belief: that intelligent software should be accessible to every business, not just the giants. We are builders, researchers, and problem-solvers — and we're only just getting started.
           </p>
           <p className="mt-4 text-[17px] font-light text-[#5a5754] dark:text-white/50 max-w-[520px] leading-[1.75]">
             Our first products focus on hospitality and B2B automation, but our vision reaches far further — into every industry that could benefit from a smarter, more connected future.
