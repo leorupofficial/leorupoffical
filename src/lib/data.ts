@@ -67,11 +67,9 @@ export const FEATURES: FeatureItem[] = [
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
-  { initial: 'L', name: 'Leo', role: 'Co-Founder & CEO', avatarColor: '#f5f0e0' },
-  { initial: 'A', name: 'Co-Founder', role: 'Product & Strategy', avatarColor: '#e8eff8' },
-  { initial: 'B', name: 'Co-Founder', role: 'Technology & AI', avatarColor: '#eef5e8' },
-  { initial: 'C', name: 'Co-Founder', role: 'Design & UX', avatarColor: '#f8eaf0' },
-  { initial: 'D', name: 'Co-Founder', role: 'Business & Growth', avatarColor: '#f0edf8' },
+  { initial: 'M', name: 'Manoj Bhandari', role: 'CEO, Co-Founder', avatarColor: '#f5f0e0', image: 'team/manoj.png' },
+  { initial: 'S', name: 'Sushant Poudel', role: 'CEO, Co-Founder', avatarColor: '#e8eff8', image: 'team/sushant.png' },
+  { initial: 'R', name: 'Rajesh Limbu', role: 'CEO, Co-Founder', avatarColor: '#eef5e8', image: 'team/rajesh.png' },
 ];
 
 export const VISION_PILLARS: VisionPillar[] = [

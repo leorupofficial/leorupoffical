@@ -20,7 +20,7 @@ export function TeamSection() {
         >
           <SectionLabel>The founders</SectionLabel>
           <h2 className="font-serif text-[clamp(32px,4.5vw,52px)] font-normal leading-[1.1] tracking-[-0.02em] text-[#1a1918] dark:text-white max-w-[600px]">
-            Five friends, one{' '}
+            Three friends, one{' '}
             <em className="not-italic italic text-[#c9a84c]">bold</em>{' '}
             vision
           </h2>
@@ -39,12 +39,23 @@ export function TeamSection() {
               transition={{ duration: 0.6, delay: 0.15 + i * 0.09, ease: [0.22, 1, 0.36, 1] }}
               className="bg-white dark:bg-[#1a1a1a] rounded-2xl px-5 py-8 text-center flex flex-col items-center gap-3 group hover:-translate-y-1 transition-transform duration-300 cursor-default"
             >
+
               {/* Avatar */}
               <div
-                className="w-[72px] h-[72px] rounded-full flex items-center justify-center font-serif text-[26px] text-[#1a1918] border-2 border-black/[0.07] dark:border-white/[0.07] flex-shrink-0"
+                className="w-[72px] h-[72px] rounded-full overflow-hidden border-2 border-black/[0.07] dark:border-white/[0.07] flex-shrink-0"
                 style={{ background: member.avatarColor }}
               >
-                {member.initial}
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center font-serif text-[26px] text-[#1a1918]">
+                    {member.initial}
+                  </div>
+                )}
               </div>
 
               <div className="text-[16px] font-medium text-[#1a1918] dark:text-white">{member.name}</div>

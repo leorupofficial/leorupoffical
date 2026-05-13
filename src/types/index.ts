@@ -25,6 +25,7 @@ export interface TeamMember {
   name: string;
   role: string;
   avatarColor: string;
+  image?: string;
 }
 
 export interface VisionPillar {
